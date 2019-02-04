@@ -1,5 +1,5 @@
 - name: Pull Ubuntu Image
-  hosts: devops
+  hosts: localhost
   tasks:
   - name: pull
     docker_image:
