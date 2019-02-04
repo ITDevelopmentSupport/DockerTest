@@ -1,0 +1,6 @@
+- name: Pull Ubuntu Image
+  hosts: devops
+  tasks:
+  - name: pull
+    docker_image:
+      name: ubuntu
