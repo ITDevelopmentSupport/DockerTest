@@ -3,5 +3,5 @@
   tasks:
   - name: Build image
     docker_image:
-      path: /root/docker
+      path: ubuntu
       name: webimage
